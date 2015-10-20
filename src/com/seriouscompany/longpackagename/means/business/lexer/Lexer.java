@@ -21,8 +21,6 @@ public class Lexer {
    {
       handleWhitespace();
 
-
-
       // Handle integers
       if (Character.isDigit(peek))
       {

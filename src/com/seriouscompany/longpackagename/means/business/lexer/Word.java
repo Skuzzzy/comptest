@@ -10,4 +10,9 @@ public class Word extends Token{
         super(t);
         lexeme = s;
     }
+
+    public String toString()
+    {
+        return "<WORD, " + lexeme + ">";
+    }
 }

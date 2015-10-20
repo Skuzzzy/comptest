@@ -9,4 +9,9 @@ public class Token {
     {
         tag = t;
     }
+
+    public String toString()
+    {
+        return "<TOKEN, " + tag + ">";
+    }
 }
