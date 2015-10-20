@@ -1,0 +1,4 @@
+Generalized rules for a parser (interface based tokenization)
+	Assume unambiguous grammar
+Implement proper chained env for the language
+	Variables and functions share the same namespace
